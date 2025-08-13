@@ -6,7 +6,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename="/react-site">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -17,4 +17,5 @@ function App() {
     </HashRouter>
   );
 }
+
 export default App;
