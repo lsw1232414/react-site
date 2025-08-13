@@ -8,8 +8,9 @@ export default function Home() {
         <a href="https://lsw1232414.github.io/html2507/">HTML 2507</a>
         <a href="https://lsw1232414.github.io/js2507/">JS 2507</a>
         <a href="https://lsw1232414.github.io/test2508/">TEST 2508</a>
+        <a href="https://lsw1232414.github.io/react-site/">React 2508</a>
       </nav>
-      <p>JAVA SCRIPT</p>
+      <p>React</p>
 
       <div className="weekday-header">
         <div>월</div>
