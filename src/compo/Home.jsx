@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <h1>LSW's Projects</h1>
+      <h1 style={{
+        fontSize: "42px",
+        textAlign: "center",
+        marginBottom: "10px",
+        fontWeight: 700,
+        color: "#ffffff"
+      }}>
+        LSW's Projects
+      </h1>
       <nav className="top-menu">
         <a href="https://lsw1232414.github.io/html2507/">HTML 2507</a>
         <a href="https://lsw1232414.github.io/js2507/">JS 2507</a>
