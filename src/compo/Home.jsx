@@ -1,14 +1,9 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
-  const titleStyle = {
-    fontSize: "42px",
-    textAlign: "center",
-    marginBottom: "10px",
-    fontWeight: 700,
-    color: "#ffffff"
-  };
   return (
     <>
-      <h1 style={titleStyle}>LSW's Projects</h1>
+      <h1>LSW's Projects</h1>
       <nav className="top-menu">
         <a href="https://lsw1232414.github.io/html2507/">HTML 2507</a>
         <a href="https://lsw1232414.github.io/js2507/">JS 2507</a>
@@ -35,14 +30,14 @@ export default function Home() {
               <span className="day">DAY 01</span>
               <span className="date">07.24</span>
             </div>
-            <a href="/react-site/work1" target="_blank" rel="noopener noreferrer">실습</a> {/* 목 */}
+            <Link to="/work1" target="_blank" rel="noopener noreferrer">실습</Link> {/* 목 */}
           </div>
-          <div className="hw">  {/* 금요일 Work2 넣기 */}
+          <div className="hw">
             <div className="hw-title">
               <span className="day">DAY 02</span>
               <span className="date">07.25</span>
             </div>
-            <a href="/react-site/work2" target="_blank" rel="noopener noreferrer">실습</a>
+            <Link to="/work2" target="_blank" rel="noopener noreferrer">실습</Link> {/* 금 */}
           </div>
         </div>
       </div>
