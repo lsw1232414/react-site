@@ -1,8 +1,44 @@
-function Home() {
+export default function Home() {
   return (
-    <div>
+    <>
+      <h1>LSW's Projects</h1>
+      <nav className="top-menu">
+        <a href="https://lsw1232414.github.io/html2507/">HTML 2507</a>
+        <a href="https://lsw1232414.github.io/js2507/">JS 2507</a>
+        <a href="https://lsw1232414.github.io/test2508/">TEST 2508</a>
+      </nav>
+      <p>JAVA SCRIPT</p>
 
-    </div>
+      <div className="weekday-header">
+        <div>월</div>
+        <div>화</div>
+        <div>수</div>
+        <div>목</div>
+        <div>금</div>
+      </div>
+
+      <div className="week-section">
+        <div className="week-label">1주차</div>
+        <div className="grid">
+          <div className="hw empty"></div>   {/* 월 */}
+          <div className="hw empty"></div>   {/* 화 */}
+          <div className="hw empty"></div>   {/* 수 */}
+          <div className="hw">
+            <div className="hw-title">
+              <span className="day">DAY 01</span>
+              <span className="date">07.24</span>
+            </div>
+            <a href="/react-site/work1" target="_blank" rel="noopener noreferrer">실습</a> {/* 목 */}
+          </div>
+          <div className="hw">  {/* 금요일 Work2 넣기 */}
+            <div className="hw-title">
+              <span className="day">DAY 02</span>
+              <span className="date">07.25</span>
+            </div>
+            <a href="/react-site/work2" target="_blank" rel="noopener noreferrer">실습</a>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
-export default Home;
