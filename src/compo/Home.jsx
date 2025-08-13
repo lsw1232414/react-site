@@ -31,25 +31,66 @@ export default function Home() {
       <div className="week-section">
         <div className="week-label">1주차</div>
         <div className="grid">
-          <div className="hw empty"></div>   {/* 월 */}
-          <div className="hw empty"></div>   {/* 화 */}
-          <div className="hw empty"></div>   {/* 수 */}
+          <div className="hw empty"></div>   {/* 08.11 월요일 빈칸 */}
           <div className="hw">
             <div className="hw-title">
               <span className="day">DAY 01</span>
-              <span className="date">07.24</span>
+              <span className="date">08.12</span>
             </div>
-            <Link to="/work1" target="_blank" rel="noopener noreferrer">실습</Link> {/* 목 */}
+            <Link to="/work1" target="_blank" rel="noopener noreferrer">실습</Link>
           </div>
           <div className="hw">
             <div className="hw-title">
               <span className="day">DAY 02</span>
-              <span className="date">07.25</span>
+              <span className="date">08.13</span>
             </div>
-            <Link to="/work2" target="_blank" rel="noopener noreferrer">실습</Link> {/* 금 */}
+            <Link to="/work2" target="_blank" rel="noopener noreferrer">실습</Link>
+          </div>
+          <div className="hw">
+            <div className="hw-title">
+              <span className="day">DAY 03</span>
+              <span className="date">08.14</span>
+            </div>
+            {/* 빈 링크 */}
+          </div>
+          <div className="hw empty"></div>   {/* 08.15 금요일 공유일 빈칸 */}
+        </div>
+      </div>
+
+      <div className="week-section">
+        <div className="week-label">2주차</div>
+        <div className="grid">
+          <div className="hw">
+            <div className="hw-title">
+              <span className="day">DAY 01</span>
+              <span className="date">08.18</span>  {/* 2주차 월요일 날짜 */}
+            </div>
+            {/* 빈 링크 */}
+          </div>
+          <div className="hw">
+            <div className="hw-title">
+              <span className="day">DAY 02</span>
+              <span className="date">08.19</span>
+            </div>
+            {/* 빈 링크 */}
+          </div>
+          <div className="hw">
+            <div className="hw-title">
+              <span className="day">DAY 03</span>
+              <span className="date">08.20</span>
+            </div>
+            {/* 빈 링크 */}
+          </div>
+          <div className="hw">
+            <div className="hw-title">
+              <span className="day">DAY 04</span>
+              <span className="date">08.21</span>
+            </div>
+            {/* 빈 링크 */}
           </div>
         </div>
       </div>
+
     </>
   );
 }
