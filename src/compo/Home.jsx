@@ -51,7 +51,7 @@ export default function Home() {
               <span className="day">DAY 03</span>
               <span className="date">08.14</span>
             </div>
-            {/* 빈 링크 */}
+            <Link to="/work3" target="_blank" rel="noopener noreferrer">예정</Link>
           </div>
           <div className="hw empty"></div>   {/* 08.15 금요일 공유일 빈칸 */}
         </div>
