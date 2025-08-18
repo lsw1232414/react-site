@@ -14,6 +14,7 @@ function App() {
           <Route path="work1" element={<Work1 />} />
           <Route path="work2" element={<Work2 />} />
           <Route path="work3" element={<Work3 />} />
+          
         </Route>
       </Routes>
     </HashRouter>
