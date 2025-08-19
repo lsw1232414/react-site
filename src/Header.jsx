@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <h1>My Vite React App</h1>
+        <h1>LSW Project</h1>
       </header>
     </>
   );
