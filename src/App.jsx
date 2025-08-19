@@ -4,6 +4,8 @@ import Layout from "./compo/Layout";
 import Work1 from "./compo/Work1";
 import Work2 from "./compo/Work2";
 import Work3 from "./compo/Work3";
+import Mini from "./compo/Mini";
+import Work4 from "./compo/Work4";
 
 function App() {
   return (
@@ -14,7 +16,10 @@ function App() {
           <Route path="work1" element={<Work1 />} />
           <Route path="work2" element={<Work2 />} />
           <Route path="work3" element={<Work3 />} />
-          
+          <Route path="work4" element={<Work4 />} />
+          <Route path="/mini/*" element={<Mini />} />
+
+
         </Route>
       </Routes>
     </HashRouter>
