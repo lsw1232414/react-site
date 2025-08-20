@@ -83,6 +83,7 @@ export default function Home() {
               <span className="day">DAY 06</span>
               <span className="date">08.20</span>
             </div>
+            <Link to="/chapter">처음 만난 리액트</Link>
           </div>
           <div className="hw">
             <div className="hw-title">

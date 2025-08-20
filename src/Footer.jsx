@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <p>© 2024 My Company</p>
+                <p>© 2025 REACT LSW</p>
             </footer>
         </>
     );
