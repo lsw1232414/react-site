@@ -23,16 +23,16 @@ const MainTitleText = styled.p`
 `;
 
 const Mini = () => {
-    return (
-        <MiniWrapper>
-            <MainTitleText>승우의 미니 블로그</MainTitleText>
-            <Routes>
-                <Route index element={<MainPage />} />
-                <Route path="post-write" element={<PostWritePage />} />
-                <Route path="post/:postId" element={<PostViewPage />} />
-            </Routes>
-        </MiniWrapper>
-    );
+  return (
+    <MiniWrapper>
+      <MainTitleText>승우의 미니 블로그</MainTitleText>
+      <Routes>
+        <Route index element={<MainPage />} />
+        <Route path="post-write" element={<PostWritePage />} />
+        <Route path="post/:postId" element={<PostViewPage />} />
+      </Routes>
+    </MiniWrapper>
+  );
 };
 
 export default Mini;

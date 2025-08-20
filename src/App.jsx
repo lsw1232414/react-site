@@ -13,6 +13,8 @@ import Work3 from './compo/Work3';
 import Work4 from './compo/Work4';
 import MainContent from './MainContent';
 import ChapterSelector from './compo/ChapterSelector';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <MainContent>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/work1" element={<Work1 />} />
           <Route path="/work2" element={<Work2 />} />
           <Route path="/work3" element={<Work3 />} />
@@ -30,6 +34,7 @@ function App() {
           <Route path="/mini/*" element={<Mini />} />
           {/*처음 만나는 리액트*/}
           <Route path="/chapter" element={<ChapterSelector />} />
+
         </Routes>
       </MainContent>
       <Footer />
