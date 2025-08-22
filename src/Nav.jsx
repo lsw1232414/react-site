@@ -35,7 +35,7 @@ const Nav = () => {
     return (
         <NavWrapper>
             <NavLink to="/">홈</NavLink>
-            <NavLink to="/about">소개</NavLink>
+            <NavLink to="/About">소개</NavLink>
             <NavLink to="/contact">문의</NavLink>
         </NavWrapper>
     );
